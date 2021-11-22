@@ -18,7 +18,7 @@ requirements = [
     "theano",
     "pytest",
     "brain-score @ git+https://github.com/brain-score/brain-score.git",
-    "result_caching @ git+https://github.com/brain-score/result_caching.git",
+    "result_caching @ git+https://github.com/brain-score/result_caching",
     "netCDF4",
     "pillow",
     "llist",
@@ -26,8 +26,10 @@ requirements = [
     "lm_1b @ git+https://github.com/mschrimpf/lm_1b.git@1ff7382",
     "nbsvm",
     # the following require pytorch>=0.4 which is incompatible with `architecture_sampling` which requires =0.2.0
-    "OpenNMT-py @ git+https://github.com/mschrimpf/OpenNMT-py.git@f339063",
-    "text @ git+https://github.com/pytorch/text.git",
+    "brainio_base @ git+https://github.com/ryan-woo/brainio_base",
+    "fire"
+    # "OpenNMT-py @ git+https://github.com/mschrimpf/OpenNMT-py.git@f339063",
+    # "text @ git+https://github.com/pytorch/text.git",
 
     "transformers",
 ]
