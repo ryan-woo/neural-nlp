@@ -12,12 +12,12 @@ requirements = [
     "matplotlib",
     "seaborn",
     "jupyter",
-    "nltk",
-    "nltk_contrib @ git+https://github.com/nltk/nltk_contrib.git",
+    # "nltk",  # Unneeded for our use case
+    # "nltk_contrib @ git+https://github.com/nltk/nltk_contrib.git",
     "gensim",
     "theano",
     "pytest",
-    "brain-score @ git+https://github.com/brain-score/brain-score.git",
+    "brain-score @ git+https://github.com/ryan-woo/brain-score.git",
     "result_caching @ git+https://github.com/brain-score/result_caching",
     "netCDF4",
     "pillow",
@@ -28,6 +28,8 @@ requirements = [
     # the following require pytorch>=0.4 which is incompatible with `architecture_sampling` which requires =0.2.0
     "brainio_base @ git+https://github.com/ryan-woo/brainio_base",
     "fire",
+    "xarray==0.17.0",
+    "numpy",
     # "OpenNMT-py @ git+https://github.com/mschrimpf/OpenNMT-py.git@f339063",
     # "text @ git+https://github.com/pytorch/text.git",
 
