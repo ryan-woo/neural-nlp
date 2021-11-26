@@ -13,7 +13,7 @@ requirements = [
     "seaborn",
     "jupyter",
     # "nltk",  # Unneeded for our use case
-    # "nltk_contrib @ git+https://github.com/nltk/nltk_contrib.git",
+    "nltk_contrib @ git+https://github.com/nltk/nltk_contrib.git",
     "gensim",
     "theano",
     "pytest",
