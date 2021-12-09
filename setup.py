@@ -34,7 +34,7 @@ requirements = [
     # "OpenNMT-py @ git+https://github.com/mschrimpf/OpenNMT-py.git@f339063",
     # "text @ git+https://github.com/pytorch/text.git",
 
-    "transformers==2.3.0",
+    "transformers~=4.12",
 ]
 
 test_requirements = [
@@ -44,7 +44,7 @@ test_requirements = [
 
 setup(
     name='neural-nlp',
-    version='0.1.0',
+    version='0.1.1',
     description="Can artificial neural networks capture language processing in the human brain?",
     long_description=readme,
     author="Martin Schrimpf",
